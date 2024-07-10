@@ -43,25 +43,25 @@ That means the bite can be extremely painful, but is rarely fatal.`;
 
 pythons.onclick = function() {
     heading.textContent = "python";
-    image.src = "Aris83232/snakes/tree/main/images/Python.png"
+    image.src = "tree/main/images/Python.png"
     information.textContent = pythonInfo;
 
 }
 
 boa.onclick = function() {
     heading.textContent = "boas & anacondas";
-    image.src = "Aris83232/snakes/tree/main/images/Anaconda.png"
+    image.src = "tree/main/images/Anaconda.png"
     information.textContent = boaInfo;
 }
 
 cobra.onclick = function() {
     heading.textContent = "cobras";
-    image.src = "Aris83232/snakes/tree/main/images/Cobra.png"
+    image.src = "tree/main/images/Cobra.png"
     information.textContent = cobraInfo;
 }
 
 viper.onclick = function() {
     heading.textContent = "viperids";
-    image.src = "Aris83232/snakes/tree/main/images/vipert1.png"
+    image.src = "tree/main/images/vipert1.png"
     information.textContent = viperInfo;
 }
