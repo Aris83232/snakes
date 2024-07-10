@@ -28,7 +28,7 @@ header {
     align-items: center;
 }
 
-header a{
+header a {
     color: #000000;
 }
 
@@ -46,9 +46,24 @@ header a{
     margin: 15px 0px 15px 0px;
 }
 
-#content-option a {
-    color: #000000;
+#content-heading {
+    font-weight: 550;
+    font-size: 25px;
 }
+
+#content-option button {
+    color: #000000;
+    background-color: #f2f5f2;
+    border: none;
+    font-family: "DM Mono";
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#content-option button:hover {
+    font-weight: 500;
+}
+
 
 .about {
     display: flex;
@@ -61,7 +76,7 @@ header a{
 .about p {
     border-radius: 12px;
     border: 1px solid black;
-    box-shadow: 0px -2px ;
+    box-shadow: 0px -2px;
     background-color: #ffffff;
     margin: 15px 8% 2px 8%;
     padding: 10px;
@@ -80,4 +95,3 @@ footer {
     justify-content: center;
     align-items: center;
 }
-
