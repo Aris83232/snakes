@@ -38,7 +38,7 @@ header a{
     align-items: center;
 }
 
-#content {
+#content-option {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -46,8 +46,25 @@ header a{
     margin: 15px 0px 15px 0px;
 }
 
-#content a {
+#content-option a {
     color: #000000;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about p {
+    border-radius: 12px;
+    border: 1px solid black;
+    box-shadow: 0px -2px ;
+    background-color: #ffffff;
+    margin: 15px 8% 2px 8%;
+    padding: 10px;
 }
 
 footer {
